@@ -1,0 +1,31 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-05-25T06:56:49.052365",
+    "startedAt": "2022-05-25T06:56:46.276976",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3070 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--data",
+        "mask_data.yaml",
+        "--cfg",
+        "mask_yolov5s.yaml",
+        "--weights",
+        "pretrained/yolov5s.pt",
+        "--epoch",
+        "70",
+        "--batch-size",
+        "64",
+        "--device",
+        "0"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-8U62CDM",
+    "username": "HUANG JIAQI",
+    "executable": "C:\\ProgramData\\Miniconda3\\python.exe"
+}
